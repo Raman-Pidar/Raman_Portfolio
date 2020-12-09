@@ -7,3 +7,4 @@ As for now I have learnt :
 1. JavaScript
 1. Git
 1. GitHub
+2. Chalk
