@@ -31,6 +31,9 @@ hr {
 
 .bg{
     background-image: url("NavBg.svg");
+    max-width: 100%;
+    align-self: center;
+
 }
 
 
@@ -46,7 +49,7 @@ hr {
     max-width: 140px;
     display: block;
     text-decoration-line: none;
-    padding: 0.3rem 0.5rem;
+    padding: 0.1rem 0.4rem;
 
 }
 
@@ -57,7 +60,7 @@ hr {
     max-width: 140px;
     display: block;
     text-decoration-line: none;
-    padding: 0.3rem 0.5rem;
+    padding: 0.1rem 0.4rem;
 
 
 }
@@ -93,14 +96,14 @@ margin: auto;
 .ow{
     background-color: #f0f0f5;
     padding: 2rem;
-    margin: 0rem 6rem;
-    border-top-left-radius: 6rem;
-    border-bottom-right-radius: 6rem;
+    margin: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 
 }
 
 .w{
-    margin: 0rem 6rem;
+    margin: 1rem;
     padding: 2rem;
 
 }
@@ -119,8 +122,9 @@ margin: auto;
 }
 
 .bodyPic{
-    max-width: 125%;
-    padding-left: 7rem;
+    max-width: 100%;
+    align-self: center;
+    /* padding-left: 7rem; */
 }
 
 
