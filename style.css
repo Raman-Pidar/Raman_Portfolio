@@ -1,0 +1,144 @@
+
+
+
+:root{
+    --primaryGreen: #53c27a;
+    --primaryBlue: #5b65eb;
+    --primaryPink: #fa73a0;
+}
+
+.container{
+    padding: 1rem 2rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.navigator{
+    color: white;
+    background-color: #1c213b;
+    border-bottom: 1rem;
+    padding: 1rem;
+    
+
+}
+
+.bg{
+    background-image: url("NavBg.svg");
+}
+
+
+
+.link{
+    color : white;
+}
+
+.Plink{
+    color: white;
+    background-color: var(--primaryBlue);
+    border-radius: 0.5rem;
+    max-width: 140px;
+    display: block;
+    text-decoration-line: none;
+    padding: 0.3rem 0.5rem;
+
+}
+
+.Slink{
+    color: var(--primaryBlue);
+   border-style: solid;
+    border-radius: 0.5rem;
+    max-width: 140px;
+    display: block;
+    text-decoration-line: none;
+    padding: 0.3rem 0.5rem;
+
+
+}
+
+.Glink{
+ 
+    background-color: var(--primaryGreen);
+    border-radius: 0.5rem;
+    max-width: 150px;
+    display: block;
+    text-decoration-line: none;
+    padding: 0.1rem 0.5rem;
+
+
+}
+
+.center{
+text-align: center;
+margin: auto;
+}
+
+.right{
+text-align: right;
+margin: auto;
+}
+
+.inline{
+    display: inline;
+
+    margin: 1rem 2rem;
+}
+
+.ow{
+    background-color: #f0f0f5;
+    padding: 2rem;
+    margin: 0rem 6rem;
+    border-top-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+
+}
+
+.w{
+    margin: 0rem 6rem;
+    padding: 2rem;
+
+}
+
+.Dblue{
+    color: var(--primaryBlue) ;
+}
+
+.green{
+    color: var(--primaryGreen) ;
+}
+
+.box{
+    margin: auto;
+
+}
+
+.bodyPic{
+    max-width: 125%;
+    padding-left: 7rem;
+}
+
+
+
+.column {
+    float: left;
+    width: 50%;
+    /* padding: 5px; */
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .list{
+      text-decoration: none;
+   
+  }
