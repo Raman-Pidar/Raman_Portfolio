@@ -122,9 +122,9 @@ margin: auto;
 }
 
 .bodyPic{
-    max-width: 100%;
-    align-self: center;
-    /* padding-left: 7rem; */
+    max-width: 65%;
+    height: auto;
+    text-align: center;
 }
 
 
